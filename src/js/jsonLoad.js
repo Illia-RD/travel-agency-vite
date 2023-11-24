@@ -7,4 +7,5 @@ async function loadJsonFile(filePath) {
     console.error('Помилка завантаження файлу JSON:', error);
   }
 }
+
 export const jsonData = await loadJsonFile('../json/tickets.json');
