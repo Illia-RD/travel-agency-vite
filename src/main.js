@@ -8,7 +8,7 @@ import { jsonData } from './js/jsonLoad';
 
 // Отримання потрібних елементів з DOM
 const card = document.querySelector('.card');
-const excursionsSelect = document.getElementById('selectExcurcion');
+// const excursionsSelect = document.getElementById('selectExcurcion');
 
 // Створення випадаючого списку Slim Select
 const countrySelect = new SlimSelect({
@@ -16,11 +16,10 @@ const countrySelect = new SlimSelect({
   placeholder: 'Виберіть країну',
   data: countryInf(jsonData),
   events: {
-    afterChange: selectedValues => {
-      handleCountryChange(selectedValues);
-    },
+    afterChange: handleCountryChange,
   },
 });
+
 function countryInf(data) {
   return data.countries.map(country => ({
     html: `
@@ -34,10 +33,11 @@ function countryInf(data) {
 
 // Оновлена функція для обробки змін у випадаючому списку країн
 function handleCountryChange(data) {
-  console.log(data);
-  const selectedId = data.value[0];
+  console.log(jsonData);
+  const selectedCountryId = countrySelect.getSelected()[0];
+
   const selectedCountry = jsonData.countries.find(
-    country => country.id === selectedId
+    country => country.id === selectedCountryId
   );
 
   if (selectedCountry) {
@@ -45,6 +45,7 @@ function handleCountryChange(data) {
   } else {
     console.log('Країну не знайдено.');
   }
+  return;
 }
 
 // Функція для рендерингу карточки квитка
@@ -67,7 +68,7 @@ function renderTicketCard(country) {
       <p>${country.description}</p>
       <div class="excursions">
         <h3>Екскурсії:</h3>
-        <select id="selectExcurcion" multiple></select>
+        <select id="excurcionSelect" multiple></select>
       </div>
       <div class="price">
         <p>${country.ticketPrice}</p>
@@ -78,23 +79,43 @@ function renderTicketCard(country) {
     </div>
   `
   );
-
+  const excurcionSelect = new SlimSelect({
+    select: '#excurcionSelect',
+    placeholder: 'Виберіть країну',
+    data: addExcursionsData(jsonData),
+    events: {
+      afterChange: handleCountryChange,
+    },
+  });
   // Додати екскурсії до випадаючого списку
-  addExcursionsToSelect(country.excursions);
+  //   console.log('-------', country.excursions);
+  //   addExcursionsToSelect(country.excursions);
 }
 
 // Функція для додавання екскурсій до випадаючого списку
-function addExcursionsToSelect(excursions) {
-  const optionText = excursions.map(excursion => ({
-    html: `
-      <p class="excurcion-name">${excursion.name}</p>
-      <p class="excurcion-price">${excursion.price}</p>
-    `,
-    text: excursion.name,
-    value: excursion.price,
-  }));
-
-  excursionsSelect.setData(optionText);
+function addExcursionsData(excursions) {
+  //   excurcionSelect.setData();
+  //const optionText = excursions.map(excursion => ({
+  //     html: `
+  //       <p class="excurcion-name">${excursion.name}</p>
+  //       <p class="excurcion-price">${excursion.price}</p>
+  //     `,
+  //     text: excursion.name,
+  //     value: excursion.price,
+  //   }));
+  //   console.log(optionText);
+  //   //   excurcionSelect.setData(optionText);
+  //   console.log('-----++++++', excursions);
+  //   const optionText = excursions.map(excursion => ({
+  //     html: `
+  //       <p class="excurcion-name">${excursion.name}</p>
+  //       <p class="excurcion-price">${excursion.price}</p>
+  //     `,
+  //     text: excursion.name,
+  //     value: excursion.price,
+  //   }));
+  //   console.log(optionText);
+  //   excursionsSelect.setData(optionText);
 }
 
 // Функція для обробки натискання на кнопку "Замовити квиток"
