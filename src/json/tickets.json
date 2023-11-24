@@ -5,7 +5,7 @@
       "name": "Франція",
       "flag": "../img/vite-logo.png",
       "description": "Країна кохання та світового мистецтва.",
-      "image": "france.jpg",
+      "image": "../img/vite-logo.png",
       "ticketPrice": 800,
       "excursions": [
         { "name": "Парижський Тур", "price": 100 },
@@ -16,9 +16,9 @@
     {
       "id": 11,
       "name": "Японія",
-      "flag": "",
+      "flag": "../img/vite-logo.png",
       "description": "Країна високих технологій та традиційного чаю.",
-      "image": "japan.jpg",
+      "image": "../img/vite-logo.png",
       "ticketPrice": 1200,
       "excursions": [
         { "name": "Токійська Скайлайн", "price": 150 },
@@ -29,9 +29,9 @@
     {
       "id": 12,
       "name": "Італія",
-      "flag": "",
+      "flag": "../img/vite-logo.png",
       "description": "Країна хорошої їжі, мистецтва та древніх руїн.",
-      "image": "italy.jpg",
+      "image": "../img/vite-logo.png",
       "ticketPrice": 900,
       "excursions": [
         { "name": "Колізей в Римі", "price": 130 },
@@ -42,9 +42,9 @@
     {
       "id": 13,
       "name": "Австралія",
-      "flag": "",
+      "flag": "../img/vite-logo.png",
       "description": "Країна екзотичної природи та унікальних тварин.",
-      "image": "australia.jpg",
+      "image": "../img/vite-logo.png",
       "ticketPrice": 1500,
       "excursions": [
         { "name": "Сіднейська опера", "price": 180 },
@@ -55,9 +55,9 @@
     {
       "id": 14,
       "name": "Канада",
-      "flag": "",
+      "flag": "../img/vite-logo.png",
       "description": "Країна великих озер та приголомшливої природи.",
-      "image": "canada.jpg",
+      "image": "../img/vite-logo.png",
       "ticketPrice": 1100,
       "excursions": [
         { "name": "Ніагарські водоспади", "price": 150 },
