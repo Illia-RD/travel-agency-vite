@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.country-flag {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.card {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.flag {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.info {
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.excursions {
+  margin-top: 15px;
+}
+
+.price {
+  margin-top: 15px;
+  font-weight: bold;
+}
+.placeholder {
+  width: 100%;
+  height: 150px;
+  background-color: #ddd; /* Сірий колір як заглушка */
+}
