@@ -4,81 +4,48 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/travel-agency/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>travel agency</title>
     
-    <script type="module" crossorigin src="/travel-agency/assets/index-af6da15e.js"></script>
-    <link rel="stylesheet" href="/travel-agency/assets/index-10c40100.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slim-select/2.6.0/slimselect.min.css"
+    />
+    <script type="module" crossorigin src="/travel-agency/assets/index-8ccca01e.js"></script>
+    <link rel="stylesheet" href="/travel-agency/assets/index-6d2bae89.css">
   </head>
   <body>
-    <header class="header">
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="./page-2.html" class="nav-link">Page 2</a>
-      </li>
-
-      <li class="nav-item">
-        <a href="./page-3.html" class="nav-link">Page 3</a>
-      </li>
-    </ul>
-  </nav>
-</header>
-
-
     <section>
-      <h1>Lorem ipsum dolor sit amet.</h1>
-      <!-- Path to images as from index.html file -->
-      <img src="/travel-agency/assets/javascript-8dac5379.svg" alt="" />
-    </section>
+  <select id="countrySelect" single>
+    <!-- Опції будуть додані через JavaScript -->
+  </select>
 
-    <!-- Loads the specified .html file -->
-    <section class="vite-promo">
-  <div class="container">
-    <div class="wrapper">
-      <h2 class="title">
-        <span class="gradient">Vite</span>
-      </h2>
-      <p class="text">Next Generation Frontend Tooling</p>
-      <p class="tagline">
-        Get ready for a development environment that can finally catch up with
-        you.
-      </p>
-
-      <ul class="actions">
-        <li class="action">
-          <a
-            class="link"
-            href="https://vitejs.dev/guide/"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Get Started</a
-          >
-        </li>
-        <li class="action">
-          <a
-            class="link"
-            href="https://github.com/vitejs/vite"
-            target="_blank"
-            rel="noopener noreferrer"
-            >View on GitHub</a
-          >
-        </li>
-      </ul>
-    </div>
-
-    <div class="thumb">
-      <!-- Path to images as from index.html file -->
-      <img
-        class="pic"
-        src="/travel-agency/assets/vite-logo-51249ca9.png"
-        alt="Vite logo"
-        width="640"
-        height="640"
-      />
+  <div class="card">
+    <img class="flag" src="flag.jpg" alt="Flag" />
+    <div class="info">
+      <h2>Назва країни</h2>
+      <p>Короткий опис країни...</p>
+      <div class="excursions">
+        <h3>Екскурсії:</h3>
+        <ul>
+          <li>Екскурсія 1</li>
+          <li>Екскурсія 2</li>
+          <li>Екскурсія 3</li>
+        </ul>
+      </div>
+      <div class="price">
+        <p>Ціна: $500</p>
+      </div>
     </div>
   </div>
+  <div class="card">
+    <div class="placeholder"></div>
+    <div class="info"></div>
+  </div>
+  <svg class="use" href=""></svg>
 </section>
 
+
+    <!-- Loads the specified .html file -->
 
     
   </body>
