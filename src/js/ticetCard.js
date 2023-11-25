@@ -8,13 +8,13 @@ const card = document.querySelector('.card');
 export function createTicketCard(country) {
   // Очищення контенту карточки
   card.innerHTML = '';
-
+  console.log(typeof country.flag);
   // Додавання HTML-структури з інформацією про країну
   card.insertAdjacentHTML(
     'beforeend',
     `
     <div class="info">
-      <img class="image" src="./img/vite-logo.png" alt="${country.name}" width="300" />
+      <img class="image" src="${country.flag}" alt="${country.name}" width="300" />
       <h2>${country.name}</h2>
       <p>${country.description}</p>
       <div class="excursions">

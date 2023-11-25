@@ -3,9 +3,9 @@
     {
       "id": 10,
       "name": "Франція",
-      "flag": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANwAAACTCAMAAADSiocKAAAAD1BMVEUAkkbOKzfx8vHa6uLpsrbBcYmvAAAAn0lEQVR4nO3PMREAMAgEMKD1rxkTP3GJg1SlvAn5nRK7ycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJyZ3JLabCgKFGexRgAAAAAElFTkSuQmCC",
+      "flag": "./img/vite-logo.png",
       "description": "Країна кохання та світового мистецтва.",
-      "image": "/img/country/picture/france-photo.jpg",
+      "image": "./img/vite-logo.png",
       "ticketPrice": 800,
       "excursions": [
         { "name": "Парижський Тур", "price": 100 },
@@ -16,9 +16,9 @@
     {
       "id": 11,
       "name": "Японія",
-      "flag": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANwAAACTCAMAAADSiocKAAAAD1BMVEUAkkbOKzfx8vHa6uLpsrbBcYmvAAAAn0lEQVR4nO3PMREAMAgEMKD1rxkTP3GJg1SlvAn5nRK7ycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJyZ3JLabCgKFGexRgAAAAAElFTkSuQmCC",
+      "flag": "./img/vite-logo.png",
       "description": "Країна високих технологій та традиційного чаю.",
-      "image": "./img/country/picture/japan-photo.jpg",
+      "image": "./img/vite-logo.png",
       "ticketPrice": 1200,
       "excursions": [
         { "name": "Токійська Скайлайн", "price": 150 },
@@ -29,9 +29,9 @@
     {
       "id": 12,
       "name": "Італія",
-      "flag": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANwAAACTCAMAAADSiocKAAAAD1BMVEUAkkbOKzfx8vHa6uLpsrbBcYmvAAAAn0lEQVR4nO3PMREAMAgEMKD1rxkTP3GJg1SlvAn5nRK7ycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJyZ3JLabCgKFGexRgAAAAAElFTkSuQmCC",
+      "flag": "./img/vite-logo.png",
       "description": "Країна хорошої їжі, мистецтва та древніх руїн.",
-      "image": "./img/country/picture/italy-photo.jpg",
+      "image": "./img/vite-logo.png",
       "ticketPrice": 900,
       "excursions": [
         { "name": "Колізей в Римі", "price": 130 },
@@ -42,9 +42,9 @@
     {
       "id": 13,
       "name": "Австралія",
-      "flag": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANwAAACTCAMAAADSiocKAAAAD1BMVEUAkkbOKzfx8vHa6uLpsrbBcYmvAAAAn0lEQVR4nO3PMREAMAgEMKD1rxkTP3GJg1SlvAn5nRK7ycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJyZ3JLabCgKFGexRgAAAAAElFTkSuQmCC",
+      "flag": "./img/vite-logo.png",
       "description": "Країна екзотичної природи та унікальних тварин.",
-      "image": "./img/country/picture/australia-photo.jpg",
+      "image": "./img/vite-logo.png",
       "ticketPrice": 1500,
       "excursions": [
         { "name": "Сіднейська опера", "price": 180 },
@@ -55,9 +55,9 @@
     {
       "id": 14,
       "name": "Канада",
-      "flag": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANwAAACTCAMAAADSiocKAAAAD1BMVEUAkkbOKzfx8vHa6uLpsrbBcYmvAAAAn0lEQVR4nO3PMREAMAgEMKD1rxkTP3GJg1SlvAn5nRK7ycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJyZ3JLabCgKFGexRgAAAAAElFTkSuQmCC",
+      "flag": "./img/vite-logo.png",
       "description": "Країна великих озер та приголомшливої природи.",
-      "image": "../img/country/picture/canada-image.jpg",
+      "image": "./img/vite-logo.png",
       "ticketPrice": 1100,
       "excursions": [
         { "name": "Ніагарські водоспади", "price": 150 },
