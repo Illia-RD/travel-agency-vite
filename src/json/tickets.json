@@ -3,7 +3,7 @@
     {
       "id": 10,
       "name": "Франція",
-      "flag": "./img/vite-logo.png",
+      "flag": "./public/vite-logo.png",
       "description": "Країна кохання та світового мистецтва.",
       "image": "./img/vite-logo.png",
       "ticketPrice": 800,
