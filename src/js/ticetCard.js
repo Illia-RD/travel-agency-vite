@@ -14,9 +14,7 @@ export function createTicketCard(country) {
     'beforeend',
     `
     <div class="info">
-      <img srcset="${country.image}" alt="" />
-
-      <h2>${country.name}</h2>
+            <h2>${country.name}</h2>
       <p>${country.description}</p>
       <div class="excursions">
         <h3>Екскурсії:</h3>
