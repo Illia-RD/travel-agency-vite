@@ -1,6 +1,6 @@
 import{S as d}from"./assets/vendor-17b356c5.js";(function(){const t=document.createElement("link").relList;if(t&&t.supports&&t.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))o(e);new MutationObserver(e=>{for(const c of e)if(c.type==="childList")for(const s of c.addedNodes)s.tagName==="LINK"&&s.rel==="modulepreload"&&o(s)}).observe(document,{childList:!0,subtree:!0});function r(e){const c={};return e.integrity&&(c.integrity=e.integrity),e.referrerPolicy&&(c.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?c.credentials="include":e.crossOrigin==="anonymous"?c.credentials="omit":c.credentials="same-origin",c}function o(e){if(e.ep)return;e.ep=!0;const c=r(e);fetch(e.href,c)}})();function l(i){return i.reduce((t,r)=>t+r,0)}const u=document.querySelector(".card");function g(i){u.innerHTML="",console.log(typeof i.flag),u.insertAdjacentHTML("beforeend",`
     <div class="info">
-      <img class="image" src="./public/vite-logo.png" alt="${i.name}" width="300" />
+      <img class="image" src="/travel-agency/assets/vite-logo.png" alt="${i.name}" width="300" />
       <h2>${i.name}</h2>
       <p>${i.description}</p>
       <div class="excursions">
