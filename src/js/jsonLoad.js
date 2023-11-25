@@ -1,4 +1,6 @@
-//jsonLoad
+//функція для перевіри файлу json(не використовується)
+
+/*
 async function loadJsonFile(filePath) {
   try {
     const response = await fetch(filePath);
@@ -9,4 +11,7 @@ async function loadJsonFile(filePath) {
   }
 }
 
-export const jsonData = await loadJsonFile('../json/tickets.json');
+export async function getJsonData() {
+  return await loadJsonFile('../json/tickets.json');
+}
+*/

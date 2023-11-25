@@ -1,6 +1,6 @@
 import SlimSelect from 'slim-select';
 import { createTicketCard } from './ticetCard';
-import { jsonData } from './jsonLoad';
+import jsonData from '../json/tickets.json';
 // Ініціалізація випадаючого списку країн
 const countrySelect = new SlimSelect({
   select: '#countrySelect',
