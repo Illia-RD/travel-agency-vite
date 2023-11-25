@@ -1,34 +1,42 @@
+import SlimSelect from 'slim-select';
+import { createTicketCard } from './ticetCard';
 import { jsonData } from './jsonLoad';
-import { select } from './slimSelect';
-// // Ініціалізація Slim Select
-// const select = new SlimSelect({
-//   select: '#countrySelect',
-//   placeholder: 'Виберіть країни',
-// });
-// function createOption() {
-//   return select;
+// Ініціалізація випадаючого списку країн
+const countrySelect = new SlimSelect({
+  select: '#countrySelect',
+  data: countryInf(jsonData),
+  settings: { placeholderText: 'Custom Placeholder Text' },
+  events: {
+    afterChange: handleCountryChange,
+  },
+});
 
-//   // Додавання опцій до випадаючого списку
-// }
-
-// document.addEventListener('DOMContentLoaded', createOption);
-export function createSlimSelect(data) {
-  // Додаємо опції до випадаючого списку
-  const optionText = data.countries.map(country => {
-    return {
-      html: `
-        <img class="country-flag" src="${country.flag}" alt="country.name" width="20" height="15">
-        <p class="country-name">${country.name}</p>
-        
-      `,
-      text: country.name,
-      value: country.id,
-      class: 'country-option',
-      id: country.id,
-    };
-  });
-
-  select.setData(optionText);
+// Функція для генерації даних для випадаючого списку країн
+function countryInf(data) {
+  return data.countries.map(country => ({
+    html: `
+      <img class="country-flag" src="${country.flag}" alt="${country.name}" width="20" height="15">
+      <p class="country-name">${country.name}</p>
+    `,
+    text: country.name,
+    value: country.id,
+  }));
 }
 
-createSlimSelect(jsonData);
+// Обробник зміни вибраної країни
+function handleCountryChange() {
+  const selectedCountryId = countrySelect.getSelected()[0];
+
+  const selectedCountry = jsonData.countries.find(
+    country => country.id === selectedCountryId
+  );
+
+  if (selectedCountry) {
+    createTicketCard(selectedCountry);
+  } else {
+    console.log('Країну не знайдено.');
+  }
+}
+
+// Виклик функції для ініціалізації з дефолтною країною
+handleCountryChange();

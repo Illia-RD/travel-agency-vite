@@ -1,3 +1,4 @@
+//jsonLoad
 async function loadJsonFile(filePath) {
   try {
     const response = await fetch(filePath);
