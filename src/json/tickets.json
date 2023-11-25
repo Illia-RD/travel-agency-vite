@@ -3,7 +3,7 @@
     {
       "id": 10,
       "name": "Франція",
-      "flag": "/img/country/flag/france.-flag.png",
+      "flag": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANwAAACTCAMAAADSiocKAAAAD1BMVEUAkkbOKzfx8vHa6uLpsrbBcYmvAAAAn0lEQVR4nO3PMREAMAgEMKD1rxkTP3GJg1SlvAn5nRK7ycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJyZ3JLabCgKFGexRgAAAAAElFTkSuQmCC",
       "description": "Країна кохання та світового мистецтва.",
       "image": "/img/country/picture/france-photo.jpg",
       "ticketPrice": 800,
@@ -16,7 +16,7 @@
     {
       "id": 11,
       "name": "Японія",
-      "flag": "./img/country/flag/japan-flag.png",
+      "flag": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANwAAACTCAMAAADSiocKAAAAD1BMVEUAkkbOKzfx8vHa6uLpsrbBcYmvAAAAn0lEQVR4nO3PMREAMAgEMKD1rxkTP3GJg1SlvAn5nRK7ycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJyZ3JLabCgKFGexRgAAAAAElFTkSuQmCC",
       "description": "Країна високих технологій та традиційного чаю.",
       "image": "./img/country/picture/japan-photo.jpg",
       "ticketPrice": 1200,
@@ -29,7 +29,7 @@
     {
       "id": 12,
       "name": "Італія",
-      "flag": "./img/country/flag/italy-flag.png",
+      "flag": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANwAAACTCAMAAADSiocKAAAAD1BMVEUAkkbOKzfx8vHa6uLpsrbBcYmvAAAAn0lEQVR4nO3PMREAMAgEMKD1rxkTP3GJg1SlvAn5nRK7ycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJyZ3JLabCgKFGexRgAAAAAElFTkSuQmCC",
       "description": "Країна хорошої їжі, мистецтва та древніх руїн.",
       "image": "./img/country/picture/italy-photo.jpg",
       "ticketPrice": 900,
@@ -42,7 +42,7 @@
     {
       "id": 13,
       "name": "Австралія",
-      "flag": "./img/country/flag/australia-flag.png",
+      "flag": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANwAAACTCAMAAADSiocKAAAAD1BMVEUAkkbOKzfx8vHa6uLpsrbBcYmvAAAAn0lEQVR4nO3PMREAMAgEMKD1rxkTP3GJg1SlvAn5nRK7ycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJyZ3JLabCgKFGexRgAAAAAElFTkSuQmCC",
       "description": "Країна екзотичної природи та унікальних тварин.",
       "image": "./img/country/picture/australia-photo.jpg",
       "ticketPrice": 1500,
@@ -55,7 +55,7 @@
     {
       "id": 14,
       "name": "Канада",
-      "flag": "../img/country/flag/canada-flag.png",
+      "flag": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANwAAACTCAMAAADSiocKAAAAD1BMVEUAkkbOKzfx8vHa6uLpsrbBcYmvAAAAn0lEQVR4nO3PMREAMAgEMKD1rxkTP3GJg1SlvAn5nRK7ycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJyZ3JLabCgKFGexRgAAAAAElFTkSuQmCC",
       "description": "Країна великих озер та приголомшливої природи.",
       "image": "../img/country/picture/canada-image.jpg",
       "ticketPrice": 1100,
