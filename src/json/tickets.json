@@ -3,9 +3,9 @@
     {
       "id": 10,
       "name": "Франція",
-      "flag": "./img/country/flag/france.-flag.png",
+      "flag": "/img/country/flag/france.-flag.png",
       "description": "Країна кохання та світового мистецтва.",
-      "image": "./img/country/picture/france-photo.jpg",
+      "image": "/img/country/picture/france-photo.jpg",
       "ticketPrice": 800,
       "excursions": [
         { "name": "Парижський Тур", "price": 100 },
