@@ -28,7 +28,7 @@
       `,text:o.name,value:o.price}))}function a(){const n=i.getSelected();s.textContent=S(n)||0,s.setAttribute("value",S(n)||0)}e.addEventListener("click",()=>{let n={name:"",ticet:Number(t.getAttribute("value")),excursion:Number(s.getAttribute("value"))};alert(`Замовлено: ${n.name}
 Ціна квитка: ${n.ticet}
 Ціна екскурсій: ${n.excursion}
-Загальна ціна: ${n.ticet+n.excursion}`)})}async function V(r){try{return await(await fetch(r)).json()}catch(e){console.error("Помилка завантаження файлу JSON:",e)}}const x=V("../json/tickets.json"),H=new O({select:"#countrySelect",data:I(x),settings:{placeholderText:"Custom Placeholder Text"},events:{afterChange:A}});function I(r){return r.countries.map(e=>({html:`
+Загальна ціна: ${n.ticet+n.excursion}`)})}async function V(r){try{return await(await fetch(r)).json()}catch(e){console.error("Помилка завантаження файлу JSON:",e)}}const x=await V("../json/tickets.json"),H=new O({select:"#countrySelect",data:I(x),settings:{placeholderText:"Custom Placeholder Text"},events:{afterChange:A}});function I(r){return r.countries.map(e=>({html:`
       <img class="country-flag" src="${e.flag}" alt="${e.name}" width="20" height="15">
       <p class="country-name">${e.name}</p>
     `,text:e.name,value:e.id}))}function A(){const r=H.getSelected()[0],e=x.countries.find(t=>t.id===r);e?B(e):console.log("Країну не знайдено.")}A();
