@@ -3,9 +3,9 @@
     {
       "id": 10,
       "name": "Франція",
-      "flag": "../img/vite-logo.png",
+      "flag": "./img/country/flag/france.-flag.png",
       "description": "Країна кохання та світового мистецтва.",
-      "image": "../img/vite-logo.png",
+      "image": "./img/country/picture/france-photo.jpg",
       "ticketPrice": 800,
       "excursions": [
         { "name": "Парижський Тур", "price": 100 },
@@ -16,9 +16,9 @@
     {
       "id": 11,
       "name": "Японія",
-      "flag": "../img/vite-logo.png",
+      "flag": "./img/country/flag/japan-flag.png",
       "description": "Країна високих технологій та традиційного чаю.",
-      "image": "../img/vite-logo.png",
+      "image": "./img/country/picture/japan-photo.jpg",
       "ticketPrice": 1200,
       "excursions": [
         { "name": "Токійська Скайлайн", "price": 150 },
@@ -29,9 +29,9 @@
     {
       "id": 12,
       "name": "Італія",
-      "flag": "../img/vite-logo.png",
+      "flag": "./img/country/flag/italy-flag.png",
       "description": "Країна хорошої їжі, мистецтва та древніх руїн.",
-      "image": "../img/vite-logo.png",
+      "image": "./img/country/picture/italy-photo.jpg",
       "ticketPrice": 900,
       "excursions": [
         { "name": "Колізей в Римі", "price": 130 },
@@ -42,9 +42,9 @@
     {
       "id": 13,
       "name": "Австралія",
-      "flag": "../img/vite-logo.png",
+      "flag": "./img/country/flag/australia-flag.png",
       "description": "Країна екзотичної природи та унікальних тварин.",
-      "image": "../img/vite-logo.png",
+      "image": "./img/country/picture/australia-photo.jpg",
       "ticketPrice": 1500,
       "excursions": [
         { "name": "Сіднейська опера", "price": 180 },
@@ -55,9 +55,9 @@
     {
       "id": 14,
       "name": "Канада",
-      "flag": "../img/vite-logo.png",
+      "flag": "../img/country/flag/canada-flag.png",
       "description": "Країна великих озер та приголомшливої природи.",
-      "image": "../img/vite-logo.png",
+      "image": "../img/country/picture/canada-image.jpg",
       "ticketPrice": 1100,
       "excursions": [
         { "name": "Ніагарські водоспади", "price": 150 },

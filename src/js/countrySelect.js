@@ -15,7 +15,7 @@ const countrySelect = new SlimSelect({
 function countryInf(data) {
   return data.countries.map(country => ({
     html: `
-      <img class="country-flag" src="${country.flag}" alt="${country.name}" width="20" height="15">
+      <img class="country-flag" src="${country.flag}" alt="${country.name}" width="50" height="20" >
       <p class="country-name">${country.name}</p>
     `,
     text: country.name,
