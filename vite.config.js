@@ -5,17 +5,12 @@ import FullReload from 'vite-plugin-full-reload';
 
 export default defineConfig({
   root: 'src',
-  optimizeDeps: {
-    esbuildOptions: {
-      target: 'esnext',
-    },
-  },
+
   build: {
     rollupOptions: {
       input: glob.sync('./src/*.html'),
     },
     outDir: '../dist',
-    target: 'esnext',
   },
   plugins: [injectHTML(), FullReload(['./src/**/**.html'])],
 });
