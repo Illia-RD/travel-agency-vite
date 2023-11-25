@@ -9,4 +9,4 @@ async function loadJsonFile(filePath) {
   }
 }
 
-export const jsonData = await loadJsonFile('../json/tickets.json');
+export const jsonData = loadJsonFile('../json/tickets.json');
